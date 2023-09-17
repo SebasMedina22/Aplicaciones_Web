@@ -11,6 +11,13 @@
         public bool? IsActive { get; set; }
         #endregion
 
+        #region Constructor
+        public Employee()
+        {
+            
+        }
+        #endregion
+
         #region Methods
         public abstract decimal GetValueToPay();
         public override string ToString()

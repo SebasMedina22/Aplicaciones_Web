@@ -87,7 +87,7 @@ namespace EmployeeOOP.Classes
             //dia/mes/año
             //var dateConcatenated1 = _day + "/" + _month + "/" + _year; //la mas vieja y fea  
             //var dateConcatenated2 = $"{_day}/{_month}/{_year}";
-            var dateConcatenated3 = String.Format("{0}{1}{2}", _day, _month, _year);
+            var dateConcatenated3 = String.Format("{0:00}/{1:00}/{2:0000}", _day, _month, _year);
 
             return dateConcatenated3;
         }
